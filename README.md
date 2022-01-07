@@ -12,7 +12,22 @@ This aim of this project is to utilize linear regression techiques to predict fi
 - We also manually scraped data from UnitedStatesZipCodes.org for a number of additional datapoints and features.
 
 ## Methods
-After performing exploratory data analysis with visualizations to get a better intuitive understanding of the data, we built a number of predictive models using multiple linear regression. We engineered several features such as distance to the city centers of Seattle and Redmond, among others. Additionally, we created an inferential model to assess the most important feature relationships to price. 
+Before we did anything else, we performed a train-test split to hold a portion of the data for later scoring after we were satisfied with the performance of our models. After performing exploratory data analysis with visualizations to get a better intuitive understanding of the data, we built a number of predictive models using multiple linear regression. We used K-fold cross validation to score our models as we went. We engineered several features such as distance to the city centers of Seattle and Redmond, among others. Additionally, we created an inferential model to assess the most important feature relationships to price. 
 
 ## Results
+We produced nearly a dozen predictive models with varying ability to predict final sale price. 
+
+![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/the_skylar_slide_phase2.png)
+
+- We began with a simple linear regression comparing only price and living space in square feet. This model was only able to account for 49% of the variance in the data with an average error of $249,000. We attempted a number of techniques to improve and refine our models. 
+
+- Ultimately, after incorporating all of our features (including several new engineered features as well as several from our scraped data) with no dummy variables. This model is able to account for 82% of the test data variance with an average error of $160,000, a significant improvement over our initial model. Additionally, the accuracy of our model improves a decent amount for those houses which our model predicts at $1million or less. 
+![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/final_model_graph.png)
+
+In addition to our predictive models, we examined a number of other factors important to price, both through visual data analysis and an inferiential model. For instance, we were interested in the geographic locations of the most expensive houses and produced a map showing price by location.
+
+![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/image.png)
+
+Lastly, our inferential model determined the specific features that were most important in determining price, those being distance from Seattle and Redmond, living area in square feet, number of bedrooms, and room sizes.
+
 
