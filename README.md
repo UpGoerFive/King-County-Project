@@ -30,4 +30,9 @@ In addition to our predictive models, we examined a number of other factors impo
 
 Lastly, our inferential model determined the specific features that were most important in determining price, those being distance from Seattle and Redmond, living area in square feet, number of bedrooms, and room sizes.
 
+## Conclusion
+- To conclude, our predictive model can reasonably predict the sale price of a house with a typical error of 160 thousand dollars.
 
+- Beyond the predictions of our model, Lake and Company should most closely pay attention to distance from city centers, livable area in square feet, number of bedrooms, and room sizes.
+
+- Ultimately, we recommend more data collection and more advanced modeling in order to further improve and refine these results.
