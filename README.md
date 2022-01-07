@@ -6,3 +6,9 @@ This aim of this project is to utilize linear regression techiques to predict fi
 
 
 ## Data
+- We utilized a dataset from the King County Assessor's public website, which lists house sale prices and other data for over 21,000 houses in the period from May 2014 - May 2015. 
+
+- We also manually scraped data from UnitedStatesZipCodes.org for a number of additional datapoints and features.
+
+## Methods
+After performing exploratory data analysis with visualizations to get a better intuitive understanding of the data, we built a number of predictive models using multiple linear regression. We engineered several features such as distance to the city centers of Seattle and Redmond, among others. Additionally, we created an inferential model to assess the most important feature relationships to price. 
