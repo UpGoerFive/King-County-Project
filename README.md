@@ -36,3 +36,6 @@ Lastly, our inferential model determined the specific features that were most im
 - Beyond the predictions of our model, Lake and Company should most closely pay attention to distance from city centers, livable area in square feet, number of bedrooms, and room sizes.
 
 - Ultimately, we recommend more data collection and more advanced modeling in order to further improve and refine these results.
+
+## For More Information
+View our full [Jupyter Notebook](https://github.com/UpGoerFive/King-County-Project/blob/master/Combined-Notebook.ipynb) and/or see our [presentation slides](https://github.com/UpGoerFive/King-County-Project/raw/master/Selling%20houses%20in%20the%20seattle%20area.pdf).
