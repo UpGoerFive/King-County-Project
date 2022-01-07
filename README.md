@@ -1,6 +1,6 @@
 # Predicting Sale Prices for Lake and Company Realty
 Contributing Members: Abass Ibrahim, Nathaniel Martin, and Matthew Samson
-![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/wonderlane-GBHhIyWftHs-unsplash-cropped.jpg)
+![image](https://github.com/UpGoerFive/King-County-Project/raw/master/images/wonderlane-GBHhIyWftHs-unsplash-cropped.jpg)
 
 ## Project of overview
 This aim of this project is to utilize linear regression techiques to predict final house sale prices in King County in Washington State. This includes major cities such as Seattle and Redmond. The project is from the perspective of being hypothetically commissioned by Lake and Company Realty in Seattle to produce a model to accurately predict sale prices. Lake and Company will then use these results to more judiciously consider what clients it takes on as well as to appropriately set fees, rates, commissions, and the like. We've produced both a predictive and inferential model for this purpose and we have a few recommendations for Lake and Company based on these models.
@@ -17,16 +17,16 @@ Before we did anything else, we performed a train-test split to hold a portion o
 ## Results
 We produced nearly a dozen predictive models with varying ability to predict final sale price. 
 
-![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/the_skylar_slide_phase2.png)
+![image](https://github.com/UpGoerFive/King-County-Project/raw/master/images/the_skylar_slide_phase2.png)
 
 - We began with a simple linear regression comparing only price and living space in square feet. This model was only able to account for 49% of the variance in the data with an average error of $249,000. We attempted a number of techniques to improve and refine our models. 
 
 - Ultimately, after incorporating all of our features (including several new engineered features as well as several from our scraped data) with no dummy variables. This model is able to account for 82% of the test data variance with an average error of $160,000, a significant improvement over our initial model. Additionally, the accuracy of our model improves a decent amount for those houses which our model predicts at $1million or less. 
-![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/final_model_graph.png)
+![image](https://github.com/UpGoerFive/King-County-Project/raw/master/images/final_model_graph.png)
 
 In addition to our predictive models, we examined a number of other factors important to price, both through visual data analysis and an inferiential model. For instance, we were interested in the geographic locations of the most expensive houses and produced a map showing price by location.
 
-![image](https://github.com/UpGoerFive/King-County-Project/raw/readme/images/image.png)
+![image](https://github.com/UpGoerFive/King-County-Project/raw/master/images/image.png)
 
 Lastly, our inferential model determined the specific features that were most important in determining price, those being distance from Seattle and Redmond, living area in square feet, number of bedrooms, and room sizes.
 
