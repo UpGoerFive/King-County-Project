@@ -1,4 +1,4 @@
-# Predicting Sale Prices for Lake and Company Realty
+# Predicting Sale Prices in King County
 Contributing Members: Abass Ibrahim, Nathaniel Martin, and Matthew Samson
 ![image](https://github.com/UpGoerFive/King-County-Project/raw/master/images/wonderlane-GBHhIyWftHs-unsplash-cropped.jpg)
 
